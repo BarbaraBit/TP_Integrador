@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  img.redimension {
+    width: 400px;
+    height: 200px;
+  }
+    body{
+      width: 100%;
+      height: 50vh;
+    font font-family: sans-serif;
+  
+  }
+
+  .navegation-principal{
+      text-align: left;
+         
+  }
+  
+  nav {
+      background-color:rgb(253, 199, 208);
+      
+  }
+  
+  nav ul{
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+  }
+  
+  nav ul li{
+      padding: 10px 20px;   
+      margin: .5em .2em;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: whitesmoke;
+      font-family: 'Alkatra', cursive;
+  }
+  
+  nav ul li:hover{
+      background-color: whitesmoke;
+      border-radius: 25px;
+      transition: 0.5s;
+  }
+  
+  @media screen and (max-width:750px) {
+      nav ul{
+          height: 250px;
+          flex-direction: column;
+          text-align: center;
+      }
+  }
+  
+  div{
+      width: 1200px;
+      height: 100 px;}
+      img{ width: 20%;
+      height: 10%;
+      
+      }
+      h1{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size:20px;
+          text-align: left;
+          font-size: larger;
+      
+      } 
+      
+      h2{
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size:20px;
+          } 
+      
+          p{
+          font-style: oblique;
+          color: black;
+          font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          
+      }
+      .container {
+          width: 100%;
+          display: flex;
+          max-width: 1100px;
+               
+          
+      }
+      .card{
+          width: 80%;
+          margin: 20px;
+          height: 500px;
+          border-radius: 4px;
+          overflow: hidden;
+          background-color: #fff;
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+          cursor: default;
+          transition: all 400ms ease;
+  
+      }
+      
+      .card:hover{
+          box-shadow: 5px 5px 20px rgba(0, 0, 0,0.4);
+          transform: translateY(-3%);
+      }
+      
+      .card img{
+          width: 90%;
+          height: 200px;
+          align-items: center;
+          border-radius: 6px;
+      }
+      .card.contenido {
+          padding: 20px;
+          text-align: center;    
+          margin-top: auto;
+          
+      }
+      .card .contenido p{
+          line-height: 1.0;
+        font-size: 1.2em;
+        color: grey;
+        margin-top: 3%;
+        text-align: center;
+       width: 280px;
+       height: 100px;
+       padding: 5px;
+  
+        
+      }
+      .card .contenido h3{
+         margin-top: 1%;
+          font-weight: 500;
+          justify-content: center;
+        text-align: middle;                 
+        text-justify {
+            text-align: justify;
+          }
+  
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .card .contenido a{
+          text-decoration: none;
+          display: inline-block;
+          padding: 5px;
+          margin-top: 1%;
+          color: black grey;
+          border: 2px solid grey;
+          border-radius: 2px;
+          transition: all 300ms ease;
+          align-items: justify;
+          position: relative;  
+      }
+      
+      .card .contenido a:hover{
+          background: #e8eff1;
+          color: #fff;
+      }
+      
+      .footer
+      {width: 100%;
+        height:200px;
+        background: pink;
+        color: white;
+        position: relative;
+        padding: 70px;
+    }
+    .footer::before {
+        border border-bottom: 200px  solid transparent;
+        border :right 200px ;
+        top:0;
+
+    }
+    .footer p{
+        padding: 80px;
+
+    }
